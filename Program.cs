@@ -194,7 +194,7 @@ class program
             //Divido i valori che devono andare più lontani rispetto al tabellone dal resto degli altri numeri 
             if (a == 10 || a == 20 || a == 30 || a == 40 || a == 50 || a == 60 || a == 70 || a == 80 || a == 90)
             {
-                Console.SetCursorPosition(20, (a / 10));
+                Console.SetCursorPosition(18, (a / 10));
                 Console.WriteLine(a);
             }
             else
